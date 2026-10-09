@@ -1,0 +1,23 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+
+# IDE and course-platform metadata
+.idea/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Generated files
+*.log
+*.db
+*.sqlite3
+dist/
+build/
+*.egg-info/
