@@ -7,8 +7,8 @@ from quiz_brain import QuizBrain
 question_bank =[]
 
 for que in question_data:
-    question_text = que["text"]
-    question_answer = que["answer"]
+    question_text = que["question"]
+    question_answer = que["correct_answer"]
     new_question=QuestionModel(question_text,question_answer)
     question_bank.append(new_question)
 
